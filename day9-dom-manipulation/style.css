@@ -1,0 +1,65 @@
+.info{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact_info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact_info > div {
+  display: flex;
+  gap: 5px;
+}
+
+#github_info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#github_img{
+    height: 50px; border-radius: 100%
+}
+
+.info_text_blue {
+    color: blue
+}
+
+.gol_d_roger{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.gol_d_roger_in{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px 0;
+}
+
+.roger_words{
+    width: 50%;
+    padding: 10px 4px;
+    text-align: center;
+    border: 2px solid black
+}
+#roger_img{
+    width: 30%;
+    border-radius: 10px;
+}
+
+#btn{
+    all: unset;
+    padding: 10px 7px;
+    background: #000;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+    transition: ease 0.3s ease-in;
+}
