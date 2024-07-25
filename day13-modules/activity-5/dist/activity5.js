@@ -1,0 +1,2 @@
+(()=>{let e={name:"Goku",age:25,introduce(){return`Hi, my name is ${this.name} and I am ${this.age} years old.`},haveBirthday(){return this.age+=1,`Happy Birthday ${this.name}! You are now ${this.age} years old.`}};console.log(e),console.log(e.introduce()),console.log(e.haveBirthday()),console.log("PI:",3.14),console.log("COUNT:",3),console.log("Added Value:",34),console.log("Subtracted Value:",26),console.log("Multiplied Value:",120)})();
+//# sourceMappingURL=activity5.js.map
